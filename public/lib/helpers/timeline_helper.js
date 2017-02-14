@@ -1,7 +1,7 @@
 define(function (require) {
   const _ = require('lodash');
   const kibiUtils = require('kibiutils');
-  const moment = require('moment-timezone');
+  const moment = require('moment');
 
   return function TimelineHelperFactory() {
     function TimelineHelper() {
